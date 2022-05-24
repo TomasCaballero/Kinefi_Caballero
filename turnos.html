@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="shortcut icon" href="assets/logo4.png">
+        <title>Kinefi</title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3 fw-bold d-inline-block" href="#"><img src="assets/logo4.png" alt="logo" class="my-3" width="60px"> Kinefi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mt-2">
+                        <a class="nav-link active aniMenu" aria-current="page" href="index.html"><p class="fw-bold text-dark">Inicio</p></a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link aniMenu" href="turnos.html"><p class="fw-bold text-dark">Turnos</p></a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link aniMenu" href="equipos.html"><p class="fw-bold text-dark">Equipos</p></a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link aniMenu" href="prepagas.html"><p class="fw-bold text-dark">Prepagas</p></a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link aniMenu" href="contacto.html"><p class="fw-bold text-dark">Contacto</p></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="relleno"></div>
+
+
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-md-8 fondoTurnos">
+
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col bg-light"></div>
+            <div class="col-12 col-md-10 col-lg-6">
+                <div class="container-fluid bg-light text-center mx-0 p-1 my-3">
+                    <div class="d-inline-flex row formTurnos w-100 w-md-50 text-center mt-3 p-3 mx-0">
+                        <strong class="text-center px-0 w-md-50">Complete el formulario para recibir la cartilla médica según sus necesidades.</strong>
+                        <form action="turnos.html" method="POST" enctype="multipart/form-data" class="d-inline-flex row mx-0">
+                            <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1">
+                            <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center">
+                            <strong class="">Seleccione especialidad:</strong>
+                            <select class="especialidad text-center mb-1">
+                                <option>Kinesiología Deportiva</option>
+                                <option>Kinesiología Dermato-funcional</option>
+                                <option>Kinesiología en Traumatologia y Ortopedia de Adultos</option>
+                                <option>Kinesiología en Traumatologia y Ortopedia Pediatrica</option>
+                                <option>Kinesiología Neurolígica</option>
+                                <option>Kinesiología en Estética</option>
+                                <option>Kinesiológia en Aparato Cardio-vascular</option>
+                            </select>
+                            <input type="date" name="fecha" value="2022-01-01" 
+                            min="2022-01-01" max="2022-12-31" class="fecha text-center mb-1 d-flex justify-content-center">
+                            <select class="text-center mb-1">
+                                <option>Mañana</option>
+                                <option>Tarde</option>
+                            </select>
+                            <input type="submit" name="enviar" placeholder="Enviar" class="enviar bg-dark w-50 mx-auto rounded text-light">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col bg-light"></div>
+        </div>
+    </div>
+
+    <div id="footer" class="container-fluid">
+        <div class="row">
+            <div class="col-11">
+                <a href="index.html" class="d-inline-block"><img src="assets/logo4.png" width="70px" alt="logo" class="p-2 mx-3"></a>
+                <h3 class="px-3"><strong>Kinefi</strong></h3>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <p class="text-center">Todos los Derechos Reservados ©</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
