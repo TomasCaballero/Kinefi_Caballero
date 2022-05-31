@@ -84,7 +84,7 @@ body {
 }
 /*--------------------------------------*/
 .fondoEquipos {
-    background-image: url(../assets/fondo5.jpg);
+    background-image: url(../assets/fondo7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,7 +107,7 @@ body {
 }
 /*--------------------------------------*/
 .fondoPrepagas {
-    background-image: url(../assets/fondo4.jpg);
+    background-image: url(../assets/fondo5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -129,7 +129,7 @@ body {
 }
 /*--------------------------------------*/
 .fondoContacto {
-    background-image: url(../assets/fondo3.jpg);
+    background-image: url(../assets/fondo8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
