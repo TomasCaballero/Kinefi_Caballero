@@ -6,146 +6,141 @@
         <meta name="keywords" content="Kinesiologia, Fisioterapia, Dolor, Rehabilitación, Tratamiento, Relajación, Kinefi">
         <meta name="description" content="En KINEFI buscamos facilitar el acceso a la salud.">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="scss/estilos.css">
         <link rel="shortcut icon" href="assets/logo4.png">
         <title>Kinefi</title>
-  </head>
-  <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand fs-3 fw-bold d-inline-block" href="#"><img src="assets/logo4.png" alt="logo" class="my-3" width="60px"> Kinefi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""><svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <style>
-                 .slide-11 {
-                   animation: slide-11 1s infinite alternate both cubic-bezier(1, -0.01, 0, 0.98);
-                 }
-                 @keyframes slide-11 {
-                   100% {
-                     transform: translateY(2px)
-                   }
-                 }
-               </style><path class="slide-11" fill="#0A0A30" d="M6.832 10.516a.857.857 0 111.097-1.317l4.594 3.828L17.117 9.2a.857.857 0 011.098 1.317l-5.132 4.276a.853.853 0 01-.933.123.85.85 0 01-.187-.123l-5.131-4.276z"/></svg>
-            </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item mt-2">
-                        <a class="nav-link active aniMenu" aria-current="page" href="index.html"><p class="fw-bold text-dark d-flex justify-content-center">Inicio</p></a>
-                    </li>
-                    <li class="nav-item mt-2">
-                        <a class="nav-link aniMenu" href="turnos.html"><p class="fw-bold text-dark d-flex justify-content-center">Turnos</p></a>
-                    </li>
-                    <li class="nav-item mt-2">
-                        <a class="nav-link aniMenu" href="equipos.html"><p class="fw-bold text-dark d-flex justify-content-center">Equipos</p></a>
-                    </li>
-                    <li class="nav-item mt-2">
-                        <a class="nav-link aniMenu" href="prepagas.html"><p class="fw-bold text-dark  d-flex justify-content-center">Prepagas</p></a>
-                    </li>
-                    <li class="nav-item mt-2">
-                        <a class="nav-link aniMenu" href="contacto.html"><p class="fw-bold text-dark d-flex justify-content-center">Contacto</p></a>
-                    </li>
-                </ul>
+    </head>
+    <body class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3 fw-bold d-inline-block" href="#"><img src="assets/logo4.png" alt="logo" class="my-3" width="60px"> Kinefi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <style>
+                    .slide-11 {
+                    animation: slide-11 1s infinite alternate both cubic-bezier(1, -0.01, 0, 0.98);
+                    }
+                    @keyframes slide-11 {
+                    100% {
+                        transform: translateY(2px)
+                    }
+                    }
+                    </style>
+                    <path class="slide-11" fill="#0A0A30" d="M6.832 10.516a.857.857 0 111.097-1.317l4.594 3.828L17.117 9.2a.857.857 0 011.098 1.317l-5.132 4.276a.853.853 0 01-.933.123.85.85 0 01-.187-.123l-5.131-4.276z"/></svg>
+                </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mt-2">
+                            <a class="nav-link active aniMenu" aria-current="page" href="index.html"><p class="fw-bold text-dark d-flex justify-content-center">Inicio</p></a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link aniMenu" href="turnos.html"><p class="fw-bold text-dark d-flex justify-content-center">Turnos</p></a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link aniMenu" href="equipos.html"><p class="fw-bold text-dark d-flex justify-content-center">Equipos</p></a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link aniMenu" href="prepagas.html"><p class="fw-bold text-dark  d-flex justify-content-center">Prepagas</p></a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-link aniMenu" href="contacto.html"><p class="fw-bold text-dark d-flex justify-content-center">Contacto</p></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="relleno">  <!--Esta para que la nav bar que esta con z-index no tape contenido de la pagina-->
+
+        </div>
+
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-12 col-md-8 fondoIndex">
+
+                </div>
+                <div class="col"></div>
             </div>
         </div>
-    </nav>
-
-    <div class="relleno">
-
-    </div>
-
-
-    <div class="container-fluid bg-light">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col-12 col-md-8 fondoIndex">
-
-            </div>
-            <div class="col"></div>
-        </div>
-    </div>
-
-    <div class="container-fluid mt-5 d-flex justify-content-center fondoContIndex">
-        <div class="row d-flex justify-content-center">
-            <div class="col-6 mx-3 text-center shadow p-3 mb-5 bg-body rounded" style="width: 17em;">
-                <img src="assets/iconos/icon1.png" alt="icono turnos" width="60px">
-                <h6 class="mx-5 p-1">En <strong>Turnos</strong> va a poder completar un formulario para recibir a su correo la cartilla con los profesionales que necesita.</h6>
-            </div>
-            <div class="col-6 mx-3 text-center shadow p-3 mb-5 bg-body rounded" style="width: 17em;">
-                <img src="assets/iconos/icono2.png" alt="icono turnos" width="60px">
-                <h6 class="mx-5 p-1">En <strong>Equipos</strong> podrá tener acceso a los equipos de fisioterapia que necesite para su rehabilitación.</h6>
-            </div>
-            <div class="col-6 mx-3 text-center shadow p-3 mb-5 bg-body rounded" style="width: 17rem;">
-                <img src="assets/iconos/icono3.png" alt="icono turnos" width="60px">
-                <h6 class="mx-5 p-1">En <strong>Prepagas</strong> se informa con cuales Obras Sociales y Prepagas trabajamos.</h6>
-            </div>
-            <div class="col-6 mx-3 text-center shadow p-3 mb-5 bg-body rounded" style="width: 17rem;">
-                <img src="assets/iconos/icono4.png" alt="icono turnos" width="60px">
-                <h6 class="mx-5 p-1">En <strong>Contacto</strong> encontrará información sobre nosotros y podrá enviar su consulta de ser necesario.</h6>
+        <div class="container-fluid mt-5 d-flex justify-content-center fondoContIndex">
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 mx-3 text-center shadow p-3 mb-5 bg-body rounded" style="width: 17em;">
+                    <img src="assets/iconos/icon1.png" alt="icono turnos" width="60px">
+                    <h6 class="mx-5 p-1">En <strong>Turnos</strong> va a poder completar un formulario para recibir a su correo la cartilla con los profesionales que necesita.</h6>
+                </div>
+                <div class="col-6 mx-3 text-center shadow p-3 mb-5 bg-body rounded" style="width: 17em;">
+                    <img src="assets/iconos/icono2.png" alt="icono turnos" width="60px">
+                    <h6 class="mx-5 p-1">En <strong>Equipos</strong> podrá tener acceso a los equipos de fisioterapia que necesite para su rehabilitación.</h6>
+                </div>
+                <div class="col-6 mx-3 text-center shadow p-3 mb-5 bg-body rounded" style="width: 17rem;">
+                    <img src="assets/iconos/icono3.png" alt="icono turnos" width="60px">
+                    <h6 class="mx-5 p-1">En <strong>Prepagas</strong> se informa con cuales Obras Sociales y Prepagas trabajamos.</h6>
+                </div>
+                <div class="col-6 mx-3 text-center shadow p-3 mb-5 bg-body rounded" style="width: 17rem;">
+                    <img src="assets/iconos/icono4.png" alt="icono turnos" width="60px">
+                    <h6 class="mx-5 p-1">En <strong>Contacto</strong> encontrará información sobre nosotros y podrá enviar su consulta de ser necesario.</h6>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container-fluid fondoContIndex2">
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col d-flex justify-content-center align-items-center">
-                <h3 class="bgCarouse fw-bold text-light text-center">Los mejores profesionales te estan esperando.</h3>
+        <div class="container-fluid fondoContIndex2">
+            <div class="d-flex justify-content-star">
+                <div class="row bgOpacityIndex rounded-3 mx-3 mb-3 widhtContIndex">
+                    <strong class="px-5 py-3 text-warning">¿Qué es la rehabilitación?</strong> 
+                    <p class="px-5 py-1 text-dark fw-bold">La rehabilitación consiste en permitir y ayudar a las personas a recuperarse o adaptarse, alcanzar su máximo potencial y vivir una vida lo más plena y activa posible. <br>Según la Organización Mundial de la Salud (OMS) la rehabilitación es «el conjunto de medidas sociales, educativas y profesionales destinadas a restituir al sujeto en situación de discapacidad la mayor capacidad e independencia posibles».<br> Es un proceso, de duración variable según la situación o lesión del paciente, en el cual se involucran varias disciplinas para lograr la recuperación y readaptación tanto como sea posible.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="row bgOpacityIndex rounded-3 mx-3 mb-3 widhtContIndex">
+                    <strong class="px-5 py-3 text-warning">Importacia de la rehabilitación</strong>
+                    <p class="px-5 py-1 text-dark fw-bold">La rehabilitación es importante porque ayuda a las personas a comprender como cuidar un cuerpo que ahora funciona de manera diferente, les ayuda a mantener un alto nivel de salud que evita las complicaciones secundarias y permite desarrollar un nivel de vida lo más normal posible.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-star">
+                <div class="row bgOpacityIndex rounded-3 mx-3 mb-3 widhtContIndex">
+                    <strong class="px-5 py-3 text-warning">¿Cuándo debe iniciarse?</strong>
+                    <p class="px-5 py-1 text-dark fw-bold">Lo antes posible, pues esto permitirá acelerar la recuperación. Las investigaciones muestran realizar un proceso de rehabilitación puede mejorar su movilidad, niveles de actividad, acortar la cantidad de tiempo que necesita para permanecer en el hospital o fuera del trabajo y mejorar en gran medida su calidad de vida.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="row bgOpacityIndex rounded-3 mx-3 mb-3 widhtContIndex">
+                    <strong class="px-5 py-3 text-warning">Labor de la Kinesiologia en la rehabilitación</strong>
+                    <p class="px-5 py-1 text-dark fw-bold">La Kinesiología cumple un rol fundamental en la etapa de recuperación de los pacientes, ya que permite alcanzar el más completo potencial físico e intenta restablecer la capacidad funcional, restaurar la salud y mejorar la calidad de vida. <br>El Servicio de Kinesiología  interviene tanto en el área de atención a pacientes hospitalizados por causas clínicas o quirúrgicas abordando en forma integral la rehabilitación respiratoria cardiovascular, neurológica y traumatológica. También brinda atención en el área ambulatoria, en el centro Arenales, donde contamos con un servicio  con consultorios y gimnasios completamente equipado, donde se efectúa la atención a pacientes con cuadros de origen traumatológico, reumatológicos, deportivos y respiratorios.</p>
+                </div>
             </div>
         </div>
-        <div class="row mb-5">
-            <div class="col">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active d-flex align-items-center justify-content-center">
-                            <img src="assets/carousel/foto1.jpg" class="d-block w-50 rounded-3" alt="...">
+        
+        <div id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col d-flex align-items-center justify-content-center">
+                    <a href="index.html" class="d-inline-block"><img src="assets/logo4.png" width="70px" alt="logo" class="p-2"></a>
+                    <h3 class=""><strong>Kinefi</strong></h3>
+                </div>
+                <div class="col d-flex align-items-center justify-content-center">
+                    <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><img src="assets/iconos/flecha.png" alt="flecha" style="width: 10px;"> Política de privacidad</button>
+
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title fw-bold" id="offcanvasBottomLabel">Política de privacidad</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div class="carousel-item d-flex align-items-center justify-content-center ">
-                            <img src="assets/carousel/foto2.jpg" class="d-block w-50 rounded-3" alt="...">
-                        </div>
-                        <div class="carousel-item d-flex align-items-center justify-content-center ">
-                            <img src="assets/carousel/foto3.jpg" class="d-block w-50 rounded-3" alt="...">
-                        </div>
-                        <div class="carousel-item d-flex align-items-center justify-content-center ">
-                            <img src="assets/carousel/foto4.jpg" class="d-block w-50 rounded-3" alt="...">
+                        <div class="offcanvas-body">
+                            <p>Este documento establece los términos para que Kinefi use y proteja la información proporcionada por los usuarios al usar su sitio web. Esta política de privacidad puede cambiar o actualizarse con el tiempo, por lo que recomendamos y enfatizamos que continúe revisando esta página para asegurarse de que está de acuerdo con dichos cambios. Utilizar los servicios prestados en este sitio web significa aceptar la política de privacidad.
+                            <br>
+                            <strong>Cookies</strong>
+                            <br>
+                            Kinefi utiliza cookies para proporcionar a los usuarios una mejor experiencia en el sitio web. Puede eliminar las cookies de su computadora en cualquier momento, pero las cookies pueden ayudar a brindar un mejor servicio al sitio web. A menos que esté dispuesto y lo proporcione directamente, las cookies no accederán a su computadora ni a su información. Puede aceptar o rechazar el uso de cookies, pero la mayoría de los navegadores aceptarán cookies automáticamente porque pueden proporcionar mejores servicios de red. También puede cambiar la configuración de su computadora para rechazar las cookies. Si son rechazados, es posible que no pueda utilizar algunos de nuestros servicios. <br>Una cookie se refiere a un archivo enviado para solicitar permiso para ser almacenado en su computadora, el archivo se crea y la cookie se usa para obtener información sobre el tráfico de la red y facilitar futuras visitas a sitios web recurrentes. Otra función de las cookies es que la red puede identificar individualmente a los usuarios a través de ellas, de manera de brindarle el mejor servicio personalizado de su red.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    
-    <div id="footer" class="container-fluid">
-        <div class="row">
-            <div class="col d-flex align-items-center justify-content-center">
-                <a href="index.html" class="d-inline-block"><img src="assets/logo4.png" width="70px" alt="logo" class="p-2"></a>
-                <h3 class=""><strong>Kinefi</strong></h3>
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-                <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><img src="assets/iconos/flecha.png" alt="flecha" style="width: 10px;"> Política de privacidad</button>
-
-                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Política de privacidad</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <p>Este documento establece los términos para que Kinefi use y proteja la información proporcionada por los usuarios al usar su sitio web. Esta política de privacidad puede cambiar o actualizarse con el tiempo, por lo que recomendamos y enfatizamos que continúe revisando esta página para asegurarse de que está de acuerdo con dichos cambios. Utilizar los servicios prestados en este sitio web significa aceptar la política de privacidad.
-                    <br>
-                    <strong>Cookies</strong>
-                    <br>
-                    Kinefi utiliza cookies para proporcionar a los usuarios una mejor experiencia en el sitio web. Puede eliminar las cookies de su computadora en cualquier momento, pero las cookies pueden ayudar a brindar un mejor servicio al sitio web. A menos que esté dispuesto y lo proporcione directamente, las cookies no accederán a su computadora ni a su información. Puede aceptar o rechazar el uso de cookies, pero la mayoría de los navegadores aceptarán cookies automáticamente porque pueden proporcionar mejores servicios de red. También puede cambiar la configuración de su computadora para rechazar las cookies. Si son rechazados, es posible que no pueda utilizar algunos de nuestros servicios.
-                        
-                        Una cookie se refiere a un archivo enviado para solicitar permiso para ser almacenado en su computadora, el archivo se crea y la cookie se usa para obtener información sobre el tráfico de la red y facilitar futuras visitas a sitios web recurrentes. Otra función de las cookies es que la red puede identificar individualmente a los usuarios a través de ellas, de manera de brindarle el mejor servicio personalizado de su red.</p>
-                </div>
-                </div>
+            <div class="row">
+                <p class="text-center">Todos los Derechos Reservados ©</p>
             </div>
         </div>
-        <div class="row">
-            <p class="text-center">Todos los Derechos Reservados ©</p>
-        </div>
-    </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
