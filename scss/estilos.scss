@@ -46,12 +46,12 @@ body {
 }
 /*------BACKGROUNDS 1---------*/
 .fondoIndex {
-    background-image: url(../assets/fondo6.jpg);
+    background-image: url(../assets/fondo6mb.jpg);
     @include repeat-size-position-height-radius;
 }
 
 .fondoTurnos {
-    background-image: url(../assets/fondo2.jpg);
+    background-image: url(../assets/fondo2mb.jpg);
     @include repeat-size-position-height-radius;
 }
 
@@ -61,12 +61,12 @@ body {
 }
 
 .fondoPrepagas {
-    background-image: url(../assets/fondo5.jpg);
+    background-image: url(../assets/fondo5mb.jpg);
     @include repeat-size-position-height-radius;
 }
 
 .fondoContacto {
-    background-image: url(../assets/fondo8.jpg);
+    background-image: url(../assets/fondo8mb.jpg);
     @include repeat-size-position-height-radius;
 }
 /*--------BACKGROUNDS 2--------*/
