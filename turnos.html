@@ -13,38 +13,41 @@
     <body class="bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand fs-3 fw-bold d-inline-block" href="index.html"><img src="assets/logo4.png" alt="logo" class="my-3" width="60px"> Kinefi</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class=""><svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <style>
-                        .slide-11 {
-                        animation: slide-11 1s infinite alternate both cubic-bezier(1, -0.01, 0, 0.98);
-                        }
-                        @keyframes slide-11 {
-                        100% {
-                            transform: translateY(2px)
-                        }
-                        }
-                        </style>
-                        <path class="slide-11" fill="#0A0A30" d="M6.832 10.516a.857.857 0 111.097-1.317l4.594 3.828L17.117 9.2a.857.857 0 011.098 1.317l-5.132 4.276a.853.853 0 01-.933.123.85.85 0 01-.187-.123l-5.131-4.276z"/></svg>
-                    </span>
+                <a class="navbar-brand fs-3 fw-bold d-inline-block px-3" href="index.html"><img src="assets/logo4.png" alt="logo" class="my-3" width="60px"> Kinefi</a>
+                <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <input type="checkbox" id="checkMenu">
+                    <label for="checkMenu">
+                        <span><svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <style>
+                            .slide-11 {
+                            animation: slide-11 1s infinite alternate both cubic-bezier(1, -0.01, 0, 0.98);
+                            }
+                            @keyframes slide-11 {
+                            100% {
+                                transform: translateY(2px)
+                            }
+                            }
+                            </style>
+                            <path class="slide-11" fill="#0A0A30" d="M6.832 10.516a.857.857 0 111.097-1.317l4.594 3.828L17.117 9.2a.857.857 0 011.098 1.317l-5.132 4.276a.853.853 0 01-.933.123.85.85 0 01-.187-.123l-5.131-4.276z"/></svg>
+                        </span>
+                    </label>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item mt-2">
-                            <a class="nav-link active aniMenu" aria-current="page" href="index.html"><p class="fw-bold text-dark  d-flex justify-content-center">Inicio</p></a>
+                            <a class="nav-link active aniMenu" aria-current="page" href="index.html"><p class="fw-bold text-dark d-flex justify-content-center">Inicio</p></a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link aniMenu" href="turnos.html"><p class="fw-bold text-dark  d-flex justify-content-center">Turnos</p></a>
+                            <a class="nav-link aniMenu" href="turnos.html"><p class="fw-bold text-dark d-flex justify-content-center">Turnos</p></a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link aniMenu" href="equipos.html"><p class="fw-bold text-dark  d-flex justify-content-center">Equipos</p></a>
+                            <a class="nav-link aniMenu" href="equipos.html"><p class="fw-bold text-dark d-flex justify-content-center">Equipos</p></a>
                         </li>
                         <li class="nav-item mt-2">
                             <a class="nav-link aniMenu" href="prepagas.html"><p class="fw-bold text-dark  d-flex justify-content-center">Prepagas</p></a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link aniMenu" href="contacto.html"><p class="fw-bold text-dark  d-flex justify-content-center">Contacto</p></a>
+                            <a class="nav-link aniMenu" href="contacto.html"><p class="fw-bold text-dark d-flex justify-content-center">Contacto</p></a>
                         </li>
                     </ul>
                 </div>
@@ -59,7 +62,9 @@
             <div class="row">
                 <div class="col"></div>
                 <div class="col-12 col-md-8 fondoTurnos">
-
+                    <div class="d-flex justify-content-center">
+                        <p class="d-flex justify-content-center mt-5 p-3 fs-1 fw-bold w-50 textMain text-light">TURNOS</p>
+                    </div>
                 </div>
                 <div class="col"></div>
             </div>
@@ -102,10 +107,10 @@
                                 </g>
                             </svg>Complete el formulario para recibir la cartilla médica según sus necesidades.</strong>
                             <form action="#" method="#" enctype="#" class="d-inline-flex row mx-0">
-                                <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1">
-                                <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center">
+                                <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1 py-1">
+                                <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center py-1">
                                 <strong class="bgOpacityTurnos">Seleccione especialidad:</strong>
-                                <select class="especialidad text-center mb-1">
+                                <select class="especialidad text-center mb-1 py-1">
                                     <option>Kinesiología Deportiva</option>
                                     <option>Kinesiología Dermato-funcional</option>
                                     <option>Kinesiología en Traumatologia y Ortopedia de Adultos</option>
@@ -115,9 +120,9 @@
                                     <option>Kinesiológia en Aparato Cardio-vascular</option>
                                 </select>
                                 <input type="date" name="fecha" value="2022-01-01" 
-                                min="2022-01-01" max="2022-12-31" class="fecha text-center mb-1 d-flex justify-content-center">
+                                min="2022-01-01" max="2022-12-31" class="fecha text-center mb-1 d-flex justify-content-center py-1">
                                 <strong class="bgOpacityTurnos">Seleccione horario:</strong>
-                                <select class="text-center mb-1">
+                                <select class="text-center mb-1 py-1">
                                     <option>Mañana</option>
                                     <option>Tarde</option>
                                 </select>
@@ -132,10 +137,10 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                Aun no estan habilitados los formularios. <br>Disculpe las molestias.
+                                                Aún no estan habilitados los formularios. <br>Disculpe las molestias.
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                                             </div>
                                         </div>
                                     </div>

@@ -55,6 +55,21 @@ body {
           transform: scale(1.08, 1.08);
 }
 
+label span svg {
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+#checkMenu {
+  cursor: pointer;
+  display: none;
+}
+
+#checkMenu:checked + label span svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 /*------BACKGROUNDS 1---------*/
 .fondoIndex {
   background-image: url(../assets/fondo6mb.jpg);
@@ -62,6 +77,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 28rem;
+  width: 900px;
   border-radius: 5px;
 }
 
@@ -71,6 +87,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 28rem;
+  width: 900px;
   border-radius: 5px;
 }
 
@@ -80,6 +97,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 28rem;
+  width: 900px;
   border-radius: 5px;
 }
 
@@ -89,6 +107,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 28rem;
+  width: 900px;
   border-radius: 5px;
 }
 
@@ -98,6 +117,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 28rem;
+  width: 900px;
   border-radius: 5px;
 }
 
@@ -166,19 +186,6 @@ body {
   }
 }
 
-@media all and (min-width: 600px) {
-  .textIndexStart {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .textIndexEnd {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-}
-
 .textBorde {
   text-shadow: 2px 2px 2px black;
 }
@@ -204,8 +211,38 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+.bgTexto {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
 .widhtContIndex {
   width: 85%;
+}
+
+@media all and (min-width: 1000px) {
+  .widhtContIndex {
+    width: 700px;
+  }
+}
+
+@media all and (min-width: 1490px) {
+  .widhtContIndex {
+    width: 600px;
+  }
+  .containerTextIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.textMain {
+  text-shadow: 4px 4px 4px black;
 }
 
 nav {

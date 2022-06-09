@@ -13,21 +13,24 @@
     <body class="bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand fs-3 fw-bold d-inline-block" href="index.html"><img src="assets/logo4.png" alt="logo" class="my-3" width="60px"> Kinefi</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class=""><svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <style>
-                        .slide-11 {
-                        animation: slide-11 1s infinite alternate both cubic-bezier(1, -0.01, 0, 0.98);
-                        }
-                        @keyframes slide-11 {
-                        100% {
-                            transform: translateY(2px)
-                        }
-                        }
-                        </style>
-                        <path class="slide-11" fill="#0A0A30" d="M6.832 10.516a.857.857 0 111.097-1.317l4.594 3.828L17.117 9.2a.857.857 0 011.098 1.317l-5.132 4.276a.853.853 0 01-.933.123.85.85 0 01-.187-.123l-5.131-4.276z"/></svg>
-                    </span>
+                <a class="navbar-brand fs-3 fw-bold d-inline-block px-3" href="index.html"><img src="assets/logo4.png" alt="logo" class="my-3" width="60px"> Kinefi</a>
+                <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <input type="checkbox" id="checkMenu">
+                    <label for="checkMenu">
+                        <span><svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <style>
+                            .slide-11 {
+                            animation: slide-11 1s infinite alternate both cubic-bezier(1, -0.01, 0, 0.98);
+                            }
+                            @keyframes slide-11 {
+                            100% {
+                                transform: translateY(2px)
+                            }
+                            }
+                            </style>
+                            <path class="slide-11" fill="#0A0A30" d="M6.832 10.516a.857.857 0 111.097-1.317l4.594 3.828L17.117 9.2a.857.857 0 011.098 1.317l-5.132 4.276a.853.853 0 01-.933.123.85.85 0 01-.187-.123l-5.131-4.276z"/></svg>
+                        </span>
+                    </label>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -41,7 +44,7 @@
                             <a class="nav-link aniMenu" href="equipos.html"><p class="fw-bold text-dark d-flex justify-content-center">Equipos</p></a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link aniMenu" href="prepagas.html"><p class="fw-bold text-dark d-flex justify-content-center">Prepagas</p></a>
+                            <a class="nav-link aniMenu" href="prepagas.html"><p class="fw-bold text-dark  d-flex justify-content-center">Prepagas</p></a>
                         </li>
                         <li class="nav-item mt-2">
                             <a class="nav-link aniMenu" href="contacto.html"><p class="fw-bold text-dark d-flex justify-content-center">Contacto</p></a>
@@ -59,7 +62,9 @@
             <div class="row">
                 <div class="col"></div>
                 <div class="col-12 col-md-8 fondoEquipos">
-
+                    <div class="d-flex justify-content-center">
+                        <p class="d-flex justify-content-center mt-5 p-3 fs-1 fw-bold w-50 textMain text-light">EQUIPOS</p>
+                    </div>
                 </div>
                 <div class="col"></div>
             </div>
@@ -73,7 +78,7 @@
             <div class="container-fluid">
                 <div class="row d-flex">
                     <div class="col d-flex text-center my-3 justify-content-center aniEquipos">
-                        <div class="card cardBg" style="width: 18rem;">
+                        <div class="card cardBg shadow" style="width: 18rem;">
                             <img src="assets/alquiler/magnetoterapia1.jpg" class="card-img-top p-2" alt="magnetoterapia" style="height: 170px;">
                             <div class="card-body">
                                 <h5 class="card-title"><strong>Magnetoterapia</strong></h5>
@@ -90,9 +95,9 @@
                                             </div>
                                             <div class="modal-body">
                                                 <form action="#" method="#" enctype="#" class="d-inline-flex row mx-0">
-                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1">
-                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1">
-                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaria recibir información sobre este equipo de Magnetoterapia.
+                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1 py-1">
+                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1 py-1">
+                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaría recibir información sobre este equipo de Magnetoterapia.
                                                     </textarea>
                                                     <button type="button" class="btn btn-dark enviar bg-dark w-50 mx-auto rounded text-light py-1" data-bs-toggle="modal" data-bs-target="#respuestaModal">
                                                         Enviar
@@ -113,7 +118,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                Aun no estan habilitados los formularios. <br>Disculpe las molestias.
+                                                Aún no estan habilitados los formularios. <br>Disculpe las molestias.
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -125,7 +130,7 @@
                         </div>
                     </div>
                     <div class="col d-flex text-center my-3 justify-content-center aniEquipos">
-                        <div class="card cardBg" style="width: 18rem;">
+                        <div class="card cardBg shadow" style="width: 18rem;">
                             <img src="assets/alquiler/magnetoterapia2.jpg" class="card-img-top p-2" alt="magnetoterapia" style="height: 170px;">
                             <div class="card-body">
                                 <h5 class="card-title"><strong>Magnetoterapia</strong></h5>
@@ -142,9 +147,9 @@
                                             </div>
                                             <div class="modal-body">
                                                 <form action="#" method="#" enctype="#" class="d-inline-flex row mx-0">
-                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1">
-                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1">
-                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaria recibir información sobre este equipo de Magnetoterapia en tubo.
+                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1 py-1">
+                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1 py-1">
+                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaría recibir información sobre este equipo de Magnetoterapia en tubo.
                                                     </textarea>
                                                     <button type="button" class="btn btn-dark enviar bg-dark w-50 mx-auto rounded text-light py-1" data-bs-toggle="modal" data-bs-target="#respuestaModal">
                                                         Enviar
@@ -165,7 +170,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                Aun no estan habilitados los formularios. <br>Disculpe las molestias.
+                                                Aún no estan habilitados los formularios. <br>Disculpe las molestias.
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -177,7 +182,7 @@
                         </div>
                     </div>
                     <div class="col d-flex text-center my-3 justify-content-center aniEquipos">
-                        <div class="card cardBg" style="width: 18rem;">
+                        <div class="card cardBg shadow" style="width: 18rem;">
                             <img src="assets/alquiler/electrodos.jpg" class="card-img-top p-2" alt="electrodos" style="height: 170px;">
                             <div class="card-body">
                                 <h5 class="card-title"><strong>Electrodos</strong></h5>
@@ -194,9 +199,9 @@
                                             </div>
                                             <div class="modal-body">
                                                 <form action="#" method="#" enctype="#" class="d-inline-flex row mx-0">
-                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1">
-                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1">
-                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaria recibir información sobre este equipo de Electrodos.
+                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1 py-1">
+                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1 py-1">
+                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaría recibir información sobre este equipo de Electrodos.
                                                     </textarea>
                                                     <button type="button" class="btn btn-dark enviar bg-dark w-50 mx-auto rounded text-light py-1" data-bs-toggle="modal" data-bs-target="#respuestaModal">
                                                         Enviar
@@ -217,7 +222,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                Aun no estan habilitados los formularios. <br>Disculpe las molestias.
+                                                Aún no estan habilitados los formularios. <br>Disculpe las molestias.
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -233,7 +238,7 @@
             <div class="container-fluid">
                 <div class="row d-flex">
                     <div class="col d-flex text-center my-3 justify-content-center aniEquipos">
-                        <div class="card cardBg" style="width: 18rem;">
+                        <div class="card cardBg shadow" style="width: 18rem;">
                             <img src="assets/alquiler/infrarrojo.jpg" class="card-img-top p-2" alt="infrarrojo" style="height: 170px;">
                             <div class="card-body">
                                 <h5 class="card-title"><strong>Infrarrojo</strong></h5>
@@ -250,9 +255,9 @@
                                             </div>
                                             <div class="modal-body">
                                                 <form action="#" method="#" enctype="#" class="d-inline-flex row mx-0">
-                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1">
-                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1">
-                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaria recibir información sobre este equipo de luz Infrarroja.
+                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1 py-1">
+                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1 py-1">
+                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaría recibir información sobre este equipo de luz Infrarroja.
                                                     </textarea>
                                                     <button type="button" class="btn btn-dark enviar bg-dark w-50 mx-auto rounded text-light py-1" data-bs-toggle="modal" data-bs-target="#respuestaModal">
                                                         Enviar
@@ -273,7 +278,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                Aun no estan habilitados los formularios. <br>Disculpe las molestias.
+                                                Aún no estan habilitados los formularios. <br>Disculpe las molestias.
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -285,7 +290,7 @@
                         </div>             
                     </div>
                     <div class="col d-flex text-center my-3 justify-content-center aniEquipos">
-                        <div class="card cardBg" style="width: 18rem;">
+                        <div class="card cardBg shadow" style="width: 18rem;">
                             <img src="assets/alquiler/presoterapia.jpg" class="card-img-top p-2" alt="presoterapia" style="height: 170px;">
                             <div class="card-body">
                                 <h5 class="card-title"><strong>Presoterapia</strong></h5>
@@ -302,9 +307,9 @@
                                             </div>
                                             <div class="modal-body">
                                                 <form action="#" method="#" enctype="#" class="d-inline-flex row mx-0">
-                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1">
-                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1">
-                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaria recibir información sobre este equipo de Presoterapia.
+                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1 py-1">
+                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1 py-1">
+                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaría recibir información sobre este equipo de Presoterapia.
                                                     </textarea>
                                                     <button type="button" class="btn btn-dark enviar bg-dark w-50 mx-auto rounded text-light py-1" data-bs-toggle="modal" data-bs-target="#respuestaModal">
                                                         Enviar
@@ -325,7 +330,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                Aun no estan habilitados los formularios. <br>Disculpe las molestias.
+                                                Aún no estan habilitados los formularios. <br>Disculpe las molestias.
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -337,7 +342,7 @@
                         </div>                
                     </div>
                     <div class="col d-flex text-center my-3 justify-content-center mb-4 aniEquipos">
-                        <div class="card cardBg" style="width: 18rem;">
+                        <div class="card cardBg shadow" style="width: 18rem;">
                             <img src="assets/alquiler/termoterapia.jpg" class="card-img-top p-2" alt="termoterapia" style="height: 170px;">
                             <div class="card-body">
                                 <h5 class="card-title"><strong>Termoterapia</strong></h5>
@@ -354,9 +359,9 @@
                                             </div>
                                             <div class="modal-body">
                                                 <form action="#" method="#" enctype="#" class="d-inline-flex row mx-0">
-                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1">
-                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1">
-                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaria recibir información sobre este equipo de Termoterapia.
+                                                    <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1 py-1">
+                                                    <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center mb-1 py-1">
+                                                    <textarea class="text-center mb-1" placeholder="Deje su consulta aquí">Me gustaría recibir información sobre este equipo de Termoterapia.
                                                     </textarea>
                                                     <button type="button" class="btn btn-dark enviar bg-dark w-50 mx-auto rounded text-light py-1" data-bs-toggle="modal" data-bs-target="#respuestaModal">
                                                         Enviar
@@ -377,7 +382,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                Aun no estan habilitados los formularios. <br>Disculpe las molestias.
+                                                Aún no estan habilitados los formularios. <br>Disculpe las molestias.
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>

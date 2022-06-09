@@ -38,10 +38,22 @@ body {
     }
 }
 
-.enviar{
+.enviar {
     transition: $veltransition;
     &:hover {
         transform: scale(1.08,1.08);
+    }
+}
+
+label span svg {
+    transition: $veltransition;
+}
+
+#checkMenu {
+    cursor: pointer;
+    display: none;
+    &:checked + label span svg {
+        transform: rotate(180deg);
     }
 }
 /*------BACKGROUNDS 1---------*/
@@ -134,15 +146,6 @@ body {
     }
 }
 
-@media all and (min-width: 600px) {
-    .textIndexStart {
-        justify-content: flex-start;
-    }
-    .textIndexEnd {
-        justify-content: flex-end;
-    }
-}
-
 .textBorde {
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
@@ -167,8 +170,34 @@ body {
     background-color: rgba( 255, 255, 255, .8);
 }
 
+.bgTexto {
+    background-color: rgba( 255, 255, 255, .05);
+}
+
 .widhtContIndex {
     width: 85%;
+}
+
+@media all and (min-width: 1000px) {
+    .widhtContIndex {
+        width: 700px;
+    }
+}
+@media all and (min-width: 1490px) {
+    .widhtContIndex {
+        width: 600px;
+    }
+    .containerTextIndex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        
+    }
+}
+
+
+.textMain {
+    text-shadow: 4px 4px 4px black;
 }
 
 nav {
