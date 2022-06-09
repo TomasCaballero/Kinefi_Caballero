@@ -134,6 +134,19 @@ body {
     }
 }
 
+@media all and (min-width: 600px) {
+    .textIndexStart {
+        justify-content: flex-start;
+    }
+    .textIndexEnd {
+        justify-content: flex-end;
+    }
+}
+
+.textBorde {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
 .card-img-top {
     object-fit: $objetfit;
 }
@@ -143,15 +156,15 @@ body {
 }
 
 .bgOpacityTurnos {
-    background-color: rgba( 255, 255, 255, 0.5);
+    background-color: rgba( 255, 255, 255, .5);
 }
 
 .bgOpacityIndex {
-    background-color: rgba( 255, 255, 255, 0.4);
+    background-color: rgba( 255, 255, 255, .7);
 }
 
 .cardBg {
-    background-color: rgba( 255, 255, 255, 0.3);
+    background-color: rgba( 255, 255, 255, .8);
 }
 
 .widhtContIndex {

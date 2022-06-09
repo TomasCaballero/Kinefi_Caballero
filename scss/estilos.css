@@ -166,6 +166,23 @@ body {
   }
 }
 
+@media all and (min-width: 600px) {
+  .textIndexStart {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .textIndexEnd {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+.textBorde {
+  text-shadow: 2px 2px 2px black;
+}
+
 .card-img-top {
   -o-object-fit: contain;
      object-fit: contain;
@@ -180,11 +197,11 @@ body {
 }
 
 .bgOpacityIndex {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .cardBg {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .widhtContIndex {
