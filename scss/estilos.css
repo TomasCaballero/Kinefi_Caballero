@@ -23,6 +23,7 @@ body {
 .aniMenu:hover {
   -webkit-transform: scale(1.02, 1.05);
           transform: scale(1.02, 1.05);
+  text-decoration: underline;
 }
 
 .aniPrepagas {

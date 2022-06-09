@@ -21,6 +21,7 @@ body {
     transition: $veltransition;
     &:hover{
         transform: scale(1.02,1.05);
+        text-decoration: underline;
     }
 }
 
