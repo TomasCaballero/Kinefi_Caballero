@@ -59,28 +59,53 @@ label span svg {
 }
 /*------BACKGROUNDS 1---------*/
 .fondoIndex {
-    background-image: url(../assets/fondo6mb.jpg);
+    background-image: url(../assets/fondo6.jpg);
     @include repeat-size-position-height-radius;
+}
+@media all and (max-width: 500px){
+    .fondoIndex {
+        background-image: url(../assets/fondo6mb.jpg);
+    }
 }
 
 .fondoTurnos {
-    background-image: url(../assets/fondo2mb.jpg);
+    background-image: url(../assets/fondo2.jpg);
     @include repeat-size-position-height-radius;
+}
+@media all and (max-width: 500px){
+    .fondoTurnos {
+        background-image: url(../assets/fondo2mb.jpg);
+    }
 }
 
 .fondoEquipos {
     background-image: url(../assets/fondo7.jpg);
     @include repeat-size-position-height-radius;
 }
+@media all and (max-width: 500px){
+    .fondoEquipos {
+        background-image: url(../assets/fondo7mb.jpg);
+    }
+}
 
 .fondoPrepagas {
-    background-image: url(../assets/fondo5mb.jpg);
+    background-image: url(../assets/fondo5.jpg);
     @include repeat-size-position-height-radius;
+}
+@media all and (max-width: 500px){
+    .fondoPrepagas {
+        background-image: url(../assets/fondo5mb.jpg);
+    }
 }
 
 .fondoContacto {
-    background-image: url(../assets/fondo8mb.jpg);
+    background-image: url(../assets/fondo8.jpg);
     @include repeat-size-position-height-radius;
+}
+@media all and (max-width: 500px){
+    .fondoContacto {
+        background-image: url(../assets/fondo8mb.jpg);
+    }
 }
 /*--------BACKGROUNDS 2--------*/
 .fondoContIndex {
@@ -179,7 +204,7 @@ label span svg {
     width: 85%;
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 875px) {
     .widhtContIndex {
         width: 700px;
     }
@@ -196,6 +221,15 @@ label span svg {
     }
 }
 
+@media all and (max-width: 875px) {
+    .widhtContIndex {
+        width: 100%;
+    }
+}
+
+.tituloEquipos {
+    text-shadow: 1.5px 1px 10px white;
+}
 
 .textMain {
     text-shadow: 4px 4px 4px black;
