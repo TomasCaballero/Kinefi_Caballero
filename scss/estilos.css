@@ -79,7 +79,8 @@ label span svg {
   background-position: center;
   height: 28rem;
   width: 900px;
-  border-radius: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 @media all and (max-width: 500px) {
@@ -95,7 +96,8 @@ label span svg {
   background-position: center;
   height: 28rem;
   width: 900px;
-  border-radius: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 @media all and (max-width: 500px) {
@@ -111,7 +113,8 @@ label span svg {
   background-position: center;
   height: 28rem;
   width: 900px;
-  border-radius: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 @media all and (max-width: 500px) {
@@ -127,7 +130,8 @@ label span svg {
   background-position: center;
   height: 28rem;
   width: 900px;
-  border-radius: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 @media all and (max-width: 500px) {
@@ -143,7 +147,8 @@ label span svg {
   background-position: center;
   height: 28rem;
   width: 900px;
-  border-radius: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 @media all and (max-width: 500px) {
@@ -284,6 +289,32 @@ label span svg {
 
 .textMain {
   text-shadow: 4px 4px 4px black;
+  -webkit-animation-name: aparece;
+          animation-name: aparece;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes aparece {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes aparece {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 nav {

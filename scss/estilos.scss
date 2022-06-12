@@ -233,6 +233,18 @@ label span svg {
 
 .textMain {
     text-shadow: 4px 4px 4px black;
+    animation-name: aparece;
+    animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-duration: 2s;
+}
+@keyframes aparece {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 nav {
