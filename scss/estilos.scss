@@ -59,52 +59,52 @@ label span svg {
 }
 /*------BACKGROUNDS 1---------*/
 .fondoIndex {
-    background-image: url(../assets/fondo6.jpg);
+    background-image: url(../assets/fondo6.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoIndex {
-        background-image: url(../assets/fondo6mb.jpg);
+        background-image: url(../assets/fondo6mb.webp);
     }
 }
 
 .fondoTurnos {
-    background-image: url(../assets/fondo2.jpg);
+    background-image: url(../assets/fondo2.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoTurnos {
-        background-image: url(../assets/fondo2mb.jpg);
+        background-image: url(../assets/fondo2mb.webp);
     }
 }
 
 .fondoEquipos {
-    background-image: url(../assets/fondo7.jpg);
+    background-image: url(../assets/fondo7.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoEquipos {
-        background-image: url(../assets/fondo7mb.jpg);
+        background-image: url(../assets/fondo7mb.webp);
     }
 }
 
 .fondoPrepagas {
-    background-image: url(../assets/fondo5.jpg);
+    background-image: url(../assets/fondo5.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoPrepagas {
-        background-image: url(../assets/fondo5mb.jpg);
+        background-image: url(../assets/fondo5mb.webp);
     }
 }
 
 .fondoContacto {
-    background-image: url(../assets/fondo8.jpg);
+    background-image: url(../assets/fondo8.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoContacto {
-        background-image: url(../assets/fondo8mb.jpg);
+        background-image: url(../assets/fondo8mb.webp);
     }
 }
 /*--------BACKGROUNDS 2--------*/
@@ -116,7 +116,7 @@ label span svg {
 }
 
 .fondoContIndex2 {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23273036' fill-opacity='1' d='M0,128L120,144C240,160,480,192,720,186.7C960,181,1200,139,1320,117.3L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z'%3E%3C/path%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23273036' fill-opacity='1' d='M0,32L40,69.3C80,107,160,181,240,208C320,235,400,213,480,186.7C560,160,640,128,720,138.7C800,149,880,203,960,197.3C1040,192,1120,128,1200,101.3C1280,75,1360,85,1400,90.7L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z'%3E%3C/path%3E%3C/svg%3E");
     background-repeat: $bgrepeat;
     background-position: $bgposition;
     background-size: $bgsize;
@@ -162,7 +162,7 @@ label span svg {
 
 @media all and (min-width: 900px) {
     .anchoCarou {
-        width: 60%;
+        width: 55%;
     }
 }
 
@@ -189,7 +189,7 @@ label span svg {
 }
 
 .bgOpacityIndex {
-    background-color: rgba( 255, 255, 255, .7);
+    background-color: rgba( 255, 255, 255, .85);
 }
 
 .cardBg {

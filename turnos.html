@@ -111,8 +111,8 @@
                             <form action="#" method="#" enctype="#" class="d-inline-flex row mx-0">
                                 <input type="text" name="nombre y apellido" placeholder="Nombre y Apellido" class="nombre text-center mb-1 py-1">
                                 <input type="email" name="correo" placeholder="Correo Electronico" class="correo text-center py-1">
-                                <strong>Seleccione especialidad:</strong>
-                                <select class="especialidad text-center mb-1 py-1">
+                                <label for="especialidad"><strong>Seleccione especialidad:</strong></label>
+                                <select id="especialidad" class="especialidad text-center mb-1 py-1">
                                     <option>Kinesiología Deportiva</option>
                                     <option>Kinesiología Dermato-funcional</option>
                                     <option>Kinesiología en Traumatologia y Ortopedia de Adultos</option>
@@ -121,10 +121,11 @@
                                     <option>Kinesiología en Estética</option>
                                     <option>Kinesiológia en Aparato Cardio-vascular</option>
                                 </select>
-                                <input type="date" name="fecha" value="2022-01-01" 
+                                <label for="fecha"><strong>Seleccione el día:</strong></label>
+                                <input id="fecha" type="date" name="fecha" value="2022-01-01" 
                                 min="2022-01-01" max="2022-12-31" class="fecha text-center mb-1 d-flex justify-content-center py-1">
-                                <strong>Seleccione horario:</strong>
-                                <select class="text-center mb-1 py-1">
+                                <label for="turno"><strong>Seleccione horario:</strong></label>
+                                <select id="turno" class="text-center mb-1 py-1">
                                     <option>Mañana</option>
                                     <option>Tarde</option>
                                 </select>
@@ -163,16 +164,19 @@
                     <div id="carouselExampleFade" class="carousel slide carousel-fade anchoCarou" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active d-flex align-items-center justify-content-center mb-3">
-                                <img src="assets/carousel/foto1.jpg" class="d-block rounded-3 w-75" alt="Kinesiologia">
+                                <img src="assets/carousel/foto1.webp" class="d-block rounded-3 w-75" alt="Kinesiologia">
                             </div>
                             <div class="carousel-item d-flex align-items-center justify-content-center mb-3">
-                                <img src="assets/carousel/foto2.jpg" class="d-block rounded-3 w-75" alt="Kinesiologia">
+                                <img src="assets/carousel/foto2.webp" class="d-block rounded-3 w-75" alt="Kinesiologia">
                             </div>
                             <div class="carousel-item d-flex align-items-center justify-content-center mb-3">
-                                <img src="assets/carousel/foto3.jpg" class="d-block rounded-3 w-75" alt="Kinesiologia">
+                                <img src="assets/carousel/foto3.webp" class="d-block rounded-3 w-75" alt="Kinesiologia">
                             </div>
                             <div class="carousel-item d-flex align-items-center justify-content-center mb-3">
-                                <img src="assets/carousel/foto4.jpg" class="d-block rounded-3 w-75" alt="Kinesiologia">
+                                <img src="assets/carousel/foto4.webp" class="d-block rounded-3 w-75" alt="Kinesiologia">
+                            </div>
+                            <div class="carousel-item d-flex align-items-center justify-content-center mb-3">
+                                <img src="assets/carousel/foto5.webp" class="d-block rounded-3 w-75" alt="Kinesiologia">
                             </div>
                         </div>
                     </div>
