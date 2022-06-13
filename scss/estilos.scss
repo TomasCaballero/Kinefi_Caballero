@@ -59,52 +59,52 @@ label span svg {
 }
 /*------BACKGROUNDS 1---------*/
 .fondoIndex {
-    background-image: url(../assets/fondo6.webp);
+    background-image: url(../assets/fondos/fondoIndex.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoIndex {
-        background-image: url(../assets/fondo6mb.webp);
+        background-image: url(../assets/fondos/fondoIndexmb.webp);
     }
 }
 
 .fondoTurnos {
-    background-image: url(../assets/fondo2.webp);
+    background-image: url(../assets/fondos/fondoTurno.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoTurnos {
-        background-image: url(../assets/fondo2mb.webp);
+        background-image: url(../assets/fondos/fondoTurnomb.webp);
     }
 }
 
 .fondoEquipos {
-    background-image: url(../assets/fondo7.webp);
+    background-image: url(../assets/fondos/fondoEquipos.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoEquipos {
-        background-image: url(../assets/fondo7mb.webp);
+        background-image: url(../assets/fondos/fondoEquiposmb.webp);
     }
 }
 
 .fondoPrepagas {
-    background-image: url(../assets/fondo5.webp);
+    background-image: url(../assets/fondos/fondoPrepagas.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoPrepagas {
-        background-image: url(../assets/fondo5mb.webp);
+        background-image: url(../assets/fondos/fondoPrepagasmb.webp);
     }
 }
 
 .fondoContacto {
-    background-image: url(../assets/fondo8.webp);
+    background-image: url(../assets/fondos/fondoContacto.webp);
     @include repeat-size-position-height-radius;
 }
 @media all and (max-width: 500px){
     .fondoContacto {
-        background-image: url(../assets/fondo8mb.webp);
+        background-image: url(../assets/fondos/fondoContactomb.webp);
     }
 }
 /*--------BACKGROUNDS 2--------*/
@@ -245,6 +245,10 @@ label span svg {
     to {
         opacity: 1;
     }
+}
+
+.redes {
+    width: 40px;
 }
 
 nav {
