@@ -231,24 +231,12 @@ label span svg {
      object-fit: contain;
 }
 
-.bgCarousel {
-  background-color: rgba(255, 255, 255, 0.6);
-}
-
-.bgOpacityTurnos {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
 .bgOpacityIndex {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
 .cardBg {
   background-color: rgba(255, 255, 255, 0.8);
-}
-
-.bgTexto {
-  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .widhtContIndex {
